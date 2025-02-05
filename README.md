@@ -41,25 +41,7 @@ Example:
 GET http://localhost:8000/recommend/1
 ```
 
-### Example Response
-```json
-{
-  "book_id": 1,
-  "recommendations": [
-    {
-      "book_id": 45,
-      "book_name": "Python for Beginners",
-      "author": "John Doe",
-      "book_link": "http://example.com/python",
-      "similarity_score": 0.8234
-    },
-    {
-      "book_id": 102,
-      "book_name": "Machine Learning Basics",
-      "author": "Jane Smith",
-      "book_link": "http://example.com/ml",
-      "similarity_score": 0.8012
-    }
+
   ]
 }
 ```
